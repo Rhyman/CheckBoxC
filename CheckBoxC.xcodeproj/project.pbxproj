@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1AB6D72266953B000BEE86 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AB6D62266953B000BEE86 /* README.md */; };
+		1D1AB6DA2266954C000BEE86 /* readmeImages in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AB6D82266954C000BEE86 /* readmeImages */; };
+		1D1AB6DB2266954C000BEE86 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AB6D92266954C000BEE86 /* LICENSE.txt */; };
 		1D1C9A5722155ABE00065702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1C9A5622155ABE00065702 /* AppDelegate.m */; };
 		1D1C9A5A22155ABE00065702 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1C9A5922155ABE00065702 /* ViewController.m */; };
 		1D1C9A5D22155ABE00065702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1C9A5B22155ABE00065702 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D1AB6D62266953B000BEE86 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1D1AB6D82266954C000BEE86 /* readmeImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = readmeImages; sourceTree = "<group>"; };
+		1D1AB6D92266954C000BEE86 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		1D1C9A5222155ABE00065702 /* CheckBoxC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBoxC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D1C9A5522155ABE00065702 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D1C9A5622155ABE00065702 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +51,9 @@
 		1D1C9A4922155ABE00065702 = {
 			isa = PBXGroup;
 			children = (
+				1D1AB6D92266954C000BEE86 /* LICENSE.txt */,
+				1D1AB6D62266953B000BEE86 /* README.md */,
+				1D1AB6D82266954C000BEE86 /* readmeImages */,
 				1D1C9A5422155ABE00065702 /* CheckBoxC */,
 				1D1C9A5322155ABE00065702 /* Products */,
 			);
@@ -133,8 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D1AB6DB2266954C000BEE86 /* LICENSE.txt in Resources */,
 				1D1C9A6222155AC100065702 /* LaunchScreen.storyboard in Resources */,
+				1D1AB6DA2266954C000BEE86 /* readmeImages in Resources */,
 				1D1C9A5F22155AC100065702 /* Assets.xcassets in Resources */,
+				1D1AB6D72266953B000BEE86 /* README.md in Resources */,
 				1D1C9A5D22155ABE00065702 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

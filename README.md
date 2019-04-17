@@ -50,7 +50,7 @@ If using a version of Swift older than 4.2, the compile will fail. check comment
 
 To use RAHCheckBox, copy the RAHCheckbox class to your project.
 
-To create a checkbox in code in one of your view controllers, and be sure to add the checkbox to the your view controller's view:
+Create a checkbox in code in one of your view controllers, and be sure to add the checkbox to the your view controller's view:
 >	checkbox1 = [[RAHCheckbox alloc] initWithRect:CGRectMake(60, 100, 100, 25)];  
 >	[self.view addSubview:checkbox1];
 
@@ -67,7 +67,9 @@ Look in the header of the RAHCheckbox to see comments describing the available s
 
 The size of the checkbox is determined when initialized, although size can be modified in your parent viewController's "updateConstraints" method. The size of the checkbox itself is inset from each side by 15% of the total width. The checkbox is a square. If your defined rectangle for the control is not square, it is made a square by using the defined width for both width and height.
 
-This image shows examples of the checkbox. The first image shows a standard checkbox and checkmark with default colors, etc. The second image shows custom colors, and the checkmark shape used for an animated checkmark. The third image shows the X option.
+This image shows examples of the checkbox. The first image shows a standard checkbox and checkmark with default colors, etc. However, animation is set to NO. There are subtle shape differences between the non-animated mark (first image) and the animated mark (second image).
+
+The second image shows custom colors, and the checkmark shape used for an animated checkmark. The third image shows the X option.
 
 ![Checkmark Examples](readmeImages/examples.png)
 

@@ -51,7 +51,7 @@ If using a version of Swift older than 4.2, the compile will fail. check comment
 To use RAHCheckBox, copy the RAHCheckbox class to your project.
 
 To create a checkbox in code in one of your view controllers, and be sure to add the checkbox to the your view controller's view:
->	checkbox1 = [[RAHCheckbox alloc] initWithRect:CGRectMake(60, 100, 100, 25)];
+>	checkbox1 = [[RAHCheckbox alloc] initWithRect:CGRectMake(60, 100, 100, 25)];  
 >	[self.view addSubview:checkbox1];
 
 To create a checkbox using the Interface Builder, create a small UIView object in the IB. Then, in the identity Inspector, change the class to 'RAHCheckbox'. Create an IBOutlet of type RAHCheckbox in the header of one of your view controllers, and link to it from the Interface Builder.
